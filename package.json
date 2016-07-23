@@ -1,6 +1,6 @@
 {
   "name": "@inlinemanual/coerce",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Configurable utility for coercing values.",
   "repository": {
     "type": "git",
