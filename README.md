@@ -2,7 +2,7 @@
 
 Configurable utility for coercing values.
 
-[![npm](https://img.shields.io/npm/v/@InlineManual/coerce.svg?maxAge=2592000)](https://www.npmjs.com/package/@InlineManual/coerce)
+[![npm](https://img.shields.io/npm/v/@inlinemanual/coerce.svg?maxAge=2592000)](https://www.npmjs.com/package/@InlineManual/coerce)
 [![npm](https://img.shields.io/github/license/InlineManual/coerce.svg?maxAge=2592000)](https://github.com/InlineManual/coerce/blob/master/LICENSE)
 [![David](https://img.shields.io/david/InlineManual/coerce.svg?maxAge=2592000)](https://david-dm.org/InlineManual/coerce)
 [![Travis](https://img.shields.io/travis/InlineManual/coerce.svg?maxAge=2592000)](https://travis-ci.org/InlineManual/coerce)
