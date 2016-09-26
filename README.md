@@ -109,6 +109,11 @@ Same as `empty`, but always converts `number` to `true`.
 - Converts `number` to string.
 - Converts `false` to `"false"`, `true` to `"true"` (textual representation).
 
+### function
+
+- Leaves `function` unchanged.
+- Converts all other types to a function that returns original input.
+
 ## Documentation
 
 ### constructCoertor
