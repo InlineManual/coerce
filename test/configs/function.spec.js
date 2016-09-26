@@ -20,7 +20,6 @@ describe('Coercion: function', function () {
       {aaa: 'bbb'}
     ];
     inputs.forEach(function (input) {
-      console.log('input', input);
       const result = coerce(input);
       expect(result()).toEqual(input);
     });
