@@ -55,32 +55,32 @@ coerceCustom(true); // null
 
 ### array
 
-- Converts `null` and `unefined` to an empty array (`[]`).
-- Leaves `array` unchanged.
+-   Converts `null` and `unefined` to an empty array (`[]`).
+-   Leaves `array` unchanged.
 
 ### date
 
 Used to handle timestamps.
 
-- Leaves `number` unchanged.
-- Converts `now` to current timestamp.
-- Converts strings like `-1 hour` to relative timestamp. See [`parse-relative-time`](https://github.com/fczbkk/parse-relative-time#readme) for more details.
+-   Leaves `number` unchanged.
+-   Converts `now` to current timestamp.
+-   Converts strings like `-1 hour` to relative timestamp. See [`parse-relative-time`](https://github.com/fczbkk/parse-relative-time#readme) for more details.
 
 ### element
 
-- Treats `string` as CSS selector, returns first matched element (if any).
-- Returns `object` unchanged.
+-   Treats `string` as CSS selector, returns first matched element (if any).
+-   Returns `object` unchanged.
 
 ### empty
 
-- Converts `undefined` to `true`.
-- Converts `null` to `true`.
-- Converts `array` to `true` if empty, otherwise `false`.
-- Converts `string` to `true` if empty, otherwise `false`.
-- Converts `number` to `true` if value is `0`, otherwise `false`.
-- Converts `boolean` to `true` if `false`, otherwise `false`. (Yeah, I know this is a bit confusing, but if you think about it, it makes sense.)
-- Converts `object` to `true` if it has no keys (e.g. `{}`), otherwise `false`.
-- Converts `function` to false.
+-   Converts `undefined` to `true`.
+-   Converts `null` to `true`.
+-   Converts `array` to `true` if empty, otherwise `false`.
+-   Converts `string` to `true` if empty, otherwise `false`.
+-   Converts `number` to `true` if value is `0`, otherwise `false`.
+-   Converts `boolean` to `true` if `false`, otherwise `false`. (Yeah, I know this is a bit confusing, but if you think about it, it makes sense.)
+-   Converts `object` to `true` if it has no keys (e.g. `{}`), otherwise `false`.
+-   Converts `function` to false.
 
 ### acceptNumber
 
@@ -92,27 +92,27 @@ Same as `empty`, but always converts `number` to `true`.
 
 ### number
 
-- Leaves `number` unchanged.
-- Converts `undefined` to `0`.
-- Converts `null` to `0`.
-- Converts `false` to `0`, `true` to `1`.
-- `string`
-  - If empty, converts to `0`.
-  - If it is possible to parse the string to number, returns parsed number.
-  - Otherwise returns `null`.
+-   Leaves `number` unchanged.
+-   Converts `undefined` to `0`.
+-   Converts `null` to `0`.
+-   Converts `false` to `0`, `true` to `1`.
+-   `string`
+    -   If empty, converts to `0`.
+    -   If it is possible to parse the string to number, returns parsed number.
+    -   Otherwise returns `null`.
 
 ### text
 
-- Leaves `string` unchanged.
-- Converts `undefined` to `""` (empty string).
-- Converts `null` to `""` (empty string).
-- Converts `number` to string.
-- Converts `false` to `"false"`, `true` to `"true"` (textual representation).
+-   Leaves `string` unchanged.
+-   Converts `undefined` to `""` (empty string).
+-   Converts `null` to `""` (empty string).
+-   Converts `number` to string.
+-   Converts `false` to `"false"`, `true` to `"true"` (textual representation).
 
 ### function
 
-- Leaves `function` unchanged.
-- Converts all other types to a function that returns original input.
+-   Leaves `function` unchanged.
+-   Converts all other types to a function that returns original input.
 
 ## Documentation
 
@@ -124,7 +124,7 @@ Constructs function that will coerce any input according to config.
 
 -   `config` **\[([string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) \| [coercionConfig](#coercionconfig))]** Identifier of pre-made coercion config (string) or custom config (object).
 
-Returns **[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)**
+Returns **[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)** 
 
 ### coercionConfigItem
 
