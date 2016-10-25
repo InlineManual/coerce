@@ -103,6 +103,8 @@ Same as `empty`, but always converts `number` to `true`.
 
 ### text
 
+Alias: `string`
+
 -   Leaves `string` unchanged.
 -   Converts `undefined` to `""` (empty string).
 -   Converts `null` to `""` (empty string).
@@ -113,6 +115,13 @@ Same as `empty`, but always converts `number` to `true`.
 
 -   Leaves `function` unchanged.
 -   Converts all other types to a function that returns original input.
+
+### boolean
+
+- Leaves `boolean` unchanged.
+- Converts `undefined` and `null` to `false`.
+- Converts zero (`0`), empty string (`""`), empty array (`[]`) and empty object (`{}`) to `false`, otherwise to `true`.
+- Evaluates `function` and converts returned result to boolean.
 
 ## Documentation
 

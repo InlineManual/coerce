@@ -9,6 +9,7 @@ import {acceptNumber, rejectNumber} from './configs/empty';
 import config_number from './configs/number';
 import config_text from './configs/text';
 import config_function from './configs/function';
+import config_boolean from './configs/boolean';
 
 const configs = {
   array: config_array,
@@ -20,7 +21,8 @@ const configs = {
   number: config_number,
   text: config_text,
   string: config_text,
-  function: config_function
+  function: config_function,
+  boolean: config_boolean
 };
 
 
