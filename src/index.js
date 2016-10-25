@@ -19,6 +19,7 @@ const configs = {
   rejectNumber: rejectNumber,
   number: config_number,
   text: config_text,
+  string: config_text,
   function: config_function
 };
 
