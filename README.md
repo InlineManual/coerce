@@ -118,10 +118,10 @@ Alias: `string`
 
 ### boolean
 
-- Leaves `boolean` unchanged.
-- Converts `undefined` and `null` to `false`.
-- Converts zero (`0`), empty string (`""`), empty array (`[]`) and empty object (`{}`) to `false`, otherwise to `true`.
-- Evaluates `function` and converts returned result to boolean.
+-   Leaves `boolean` unchanged.
+-   Converts `undefined` and `null` to `false`.
+-   Converts zero (`0`), empty string (`""`), empty array (`[]`) and empty object (`{}`) to `false`, otherwise to `true`.
+-   Evaluates `function` and converts returned result to boolean.
 
 ## Documentation
 
